@@ -1,0 +1,53 @@
+# UCF file for the FPGA board																
+#																						
+# written by Mario Cofano, mario@orphidia.com	#########
+#																							#########
+# Test board wing pin [] to FPGA pin Pxx map	######### Prohibit pins for general purpose use:
+#																							#########				
+#---------------------------------------------#########--------------------------------------------			   
+#																							#########                                           #
+#		[01]				                	[68]	      #########		[01]	(GND)  	JTAG connections	        #
+#		[02]				                	[67]	      #########		[02]	(TMS)	 	JTAG connections          #
+#		[03] 				                 	[66]	      #########		[03] 	(TCK)  	JTAG connections          #
+#		[04] 				                 	[65]	      #########		[04] 	(TDO)  	JTAG connections          #
+#		[05] 				                 	[64]	      #########		[05] 	(TDI)  	JTAG connections          #
+#		[06] 				                 	[63]	      #########		[06] 	(INIT) 	JTAG connections          #
+#		[07] 	GND	                  	[62]	      #########		[08] 	(VBAT) 	JTAG connections          #
+#		[08] 				                	[61]	      #########		[09] 	(PWRON)	JTAG connections          #
+#		[09] 				                	[60]	M11   #########		[10] 	(VBAT) 	JTAG connections          #
+#		[10] 				                	[59]	N11   #########                                           #
+#		[11] 	GND                    	[58]	R7    #########		[68]	(P7)		AD5592RBCPZ-1-RL7 output  #
+#		[12] 	3V3                    	[57]	P13   #########		[67]	(P6)		AD5592RBCPZ-1-RL7 output  #
+#		[13] 	RESET                  	[56]	R13   #########		[66]	(P5)		AD5592RBCPZ-1-RL7 output  #
+#		[14] 	B15                    	[55]	R4    #########		[65]	(P4)		AD5592RBCPZ-1-RL7 output  #
+#		[15] 	H12                    	[54]	R5    #########		[64]	(P3)		AD5592RBCPZ-1-RL7 output  #
+#		[16] 	F11                    	[53]	R6    #########		[63]	(P2)		AD5592RBCPZ-1-RL7 output  #
+#		[17] 	G12                    	[52]	R8    #########		[62]	(P1)		AD5592RBCPZ-1-RL7 output  #
+#		[18] 	F12                    	[51]	R9    #########		[61]	(P0)		AD5592RBCPZ-1-RL7 output 	#
+#		[19] 	G13                    	[50]	R10   #########		                                        #
+#		[20] 	F13                    	[49]	R11   #########--------------------------------------------	
+#		[21] 	H13                    	[48]	G11   #########
+#		[22] 	G14                    	[47]	J11   #########
+#		[23] 	E14                    	[46]	K11   #########
+#		[24] 	B14                    	[45]	P14   #########
+#		[25]  C14                  		[44]	P15   #########
+#		[26]  H15                  		[43]	N14   #########
+#		[27]  J14                  		[42]	N15   #########
+#		[28]  GND                  		[41]	M13   #########
+#		[29]  J13                  		[40]	M15   #########
+#		[30]  K13                 		[39]	L12   #########
+#		[31]  K12                  		[38]	L15   #########
+#		[32]  D15                  		[37]	L14   #########
+#		[33]  E15                  		[36]	K15   #########
+#		[34]  G15                  		[35]	J15   #########
+#                                             #########			
+#---------------------------------------------#########--------------------------------------------	
+	NET "noclk"				LOC=P9			| IOSTANDARD=LVTTL	|	PULLUP; 	@@@@@ add the signal "noclk" in your top entity as an input std_logic and don't use it!!!
+#--------------------------------------------------------------------------------------------------
+
+# NET LED1 				LOC="M6"		| IOSTANDARD=LVTTL	| DRIVE=8 | SLEW=SLOW;					# LED1
+# NET LED2 				LOC="L6"		| IOSTANDARD=LVTTL	| DRIVE=8 | SLEW=SLOW;					# LED2
+# NET LED3 				LOC="L7"		| IOSTANDARD=LVTTL	| DRIVE=8 | SLEW=SLOW;					# LED3
+# NET LED4 				LOC="M8"		| IOSTANDARD=LVTTL	| DRIVE=8 | SLEW=SLOW;					# LED4	
+# NET CLK					LOC="N7"		| IOSTANDARD=LVTTL 	| PERIOD=41.66ns;               # CLK 24MHz
+

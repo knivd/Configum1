@@ -1,0 +1,43 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: PCB.PcbDoc   18/01/2016  20:32:01
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : PCB.TXT
+EIA File   : PCB.DRL
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        0.2mm (7.874mil)         Round          144              227.71 mm (8.97 Inch)
+T2        0.3mm (11.811mil)        Round          5                19.18 mm (0.76 Inch)
+T3        0.4mm (15.748mil)        Round          2                19.38 mm (0.76 Inch)
+T4        0.65mm (25.591mil)       Round          68               87.19 mm (3.43 Inch)
+T5        0.75mm (29.528mil)       Round          1                0.00 mm (0.00 Inch)
+T6        0.991mm (39.016mil)      Round          3         NPTH   9.72 mm (0.38 Inch)
+---------------------------------------------------------------------------
+Totals                                            223              363.18 mm (14.30 Inch)
+Layer Pair : Top Layer to Mid-Layer 1
+ASCII RoundHoles File : PCB.TX1
+EIA File   : PCB.DR1
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        0.2mm (7.874mil)         Round          21               50.60 mm (1.99 Inch)
+T3        0.4mm (15.748mil)        Round          13               20.27 mm (0.80 Inch)
+---------------------------------------------------------------------------
+Totals                                            34               70.86 mm (2.79 Inch)
+Layer Pair : Mid-Layer 4 to Bottom Layer
+ASCII RoundHoles File : PCB.TX2
+EIA File   : PCB.DR2
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        0.2mm (7.874mil)         Round          107              196.42 mm (7.73 Inch)
+T2        0.3mm (11.811mil)        Round          1                0.00 mm (0.00 Inch)
+T3        0.4mm (15.748mil)        Round          1                0.00 mm (0.00 Inch)
+---------------------------------------------------------------------------
+Totals                                            109              196.42 mm (7.73 Inch)
+---------------------------------------------------------------------------
+Totals                                            366              630.47 mm (24.82 Inch)
+
+Total Processing Time (hh:mm:ss) : 00:00:00

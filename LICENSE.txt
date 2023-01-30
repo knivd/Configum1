@@ -1,0 +1,9 @@
+This license permits the unrestricted manufacturing and use of this product in personal and commercial projects under the following conditions:
+===============================================================================================================================================
+
+1. The schematic/PCB/gerber files shall not be modified, but only the Bill Of Materials (BOM), if that is necessary.
+2. The user will use the module as an integral part in any project, but not sell or distribute the module as an individual product.
+3. The author shares this design "AS IS" without any obligation for further support or responsibility in case of a failure or mistake in the design.
+
+Konstantin Dimitrov
+knivd@me.com

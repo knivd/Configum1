@@ -1,0 +1,4 @@
+Layer Pairs Export File for PCB: K:\Work\Configum\DTX2-4950C (Configum)\hardware\PCB.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=pcb.txt|DrillLayers=gtl,g2,g3,g6,g7,g4,g5,gbl
+LayersSetName=Top_Mid_1_Blind_Vias|DrillFile=pcb.tx1|DrillLayers=gtl,g2
+LayersSetName=Mid_4_Bot_Blind_Vias|DrillFile=pcb.tx2|DrillLayers=g5,gbl
